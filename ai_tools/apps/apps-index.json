@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fill_black_pixels_with_color",
+    "name": "黒ピクセルを塗り色で埋める",
+    "shortDescription": "二値TGA画像の、実線（黒ピクセル）部分を周囲の塗り色で埋めます",
+    "tags": ["仕上げ", "二値", "TGA", "補正"],
+    "searchKeywords": ["ink paint", "fill lines", "black pixels"],
+    "aiInfo": {
+      "model": "Gemini",
+      "version": "3.5"
+    },
+    "manual": "説明をここに書く",
+    "promptUrl": "https://gemini.google.com/share/d/1zUFBBd4z4mRuqNwzzkz-yG4_xfRTBPyH?usp=sharing",
+    "author": "Shun Iwasawa",
+    "promptLicense": "CC BY 4.0"
+  },
+  {
+    "id": "clip_file_checker",
+    "name": "CLIP STUDIOファイル解析・チェック",
+    "shortDescription": "CLIP STUDIOのファイル（.clip）を解析し、そのデータがあらかじめ指定した条件を満たしているかどうかをチェックします",
+    "tags": ["作画", "CLIP STUDIO", "解析"],
+    "searchKeywords": ["clip studio", "check", "validation"],
+    "aiInfo": {
+      "model": "Gemini",
+      "version": "3.5"
+    },
+    "manual": "説明をここに書く",
+    "promptUrl": "https://gemini.google.com/share/d/1XXapvE6hImYjsUX0tys9udLfoUhChQlx?usp=sharing",
+    "author": "Shun Iwasawa",
+    "promptLicense": "CC BY 4.0", 
+    
+    "referencedOSS": [
+      {
+        "name": "clipstudio.js",
+        "url": "https://github.com/saitolume/clipstudio.js",
+        "license": "MIT License"
+      }
+    ],
+    
+    "referenceArticles": [
+      {
+        "title": "CLIP STUDIO PAINTのファイルからNode.jsでサムネイル画像を出力する",
+        "url": "https://qiita.com/kcpoipoi/items/16afb4ae3f83439f6ff6"
+      }
+    ]
+  }
+]
